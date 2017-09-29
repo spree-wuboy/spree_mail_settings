@@ -18,13 +18,7 @@ module Spree
                    else
                      basic_settings
                    end
-
-        if secure_connection?
-          settings.merge({
-                          enable_starttls_auto: true,
-                          tls: true
-                          })
-        end
+        settings.merge enable_starttls_auto: secure_connection?
       end
 
       class << self
