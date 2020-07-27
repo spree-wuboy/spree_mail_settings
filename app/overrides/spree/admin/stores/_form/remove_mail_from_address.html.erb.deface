@@ -1,0 +1,3 @@
+<!-- replace_contents 'erb[loud]:contains("field_container :mail_from_address")' -->
+f.field_container :mail_from_address, class: ['form-group'], style: 'display: none' do
+
