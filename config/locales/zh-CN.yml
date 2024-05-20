@@ -17,3 +17,5 @@ zh-CN:
     smtp_send_all_emails_as_from_following_address: 所有邮件都从以下地址发出.
     smtp_send_copy_to_this_addresses: 向如下地址发送一份所有发出邮件的副本。多个邮件地址之间以逗号隔开。
     smtp_username: SMTP用户名
+    smtp_open_timeout: "SMTP Open Timeout"
+    smtp_open_timeout: "SMTP Read Timeout"

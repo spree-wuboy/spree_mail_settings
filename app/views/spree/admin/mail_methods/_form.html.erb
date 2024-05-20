@@ -56,6 +56,14 @@
           <%= text_field_tag :mail_port, Spree::Config[:mail_port], class: 'form-control' %>
         </div>
         <div class="form-group">
+          <%= label_tag :mail_port, Spree.t(:smtp_open_timeout) %>
+          <%= text_field_tag :smtp_open_timeout, Spree::Config[:smtp_open_timeout], class: 'form-control' %>
+        </div>
+        <div class="form-group">
+          <%= label_tag :mail_port, Spree.t(:smtp_read_timeout) %>
+          <%= text_field_tag :smtp_read_timeout, Spree::Config[:smtp_read_timeout], class: 'form-control' %>
+        </div>
+        <div class="form-group">
           <%= label_tag :secure_connection_type, Spree.t(:secure_connection_type) %>
           <%= select_tag(:secure_connection_type,
                          options_from_collection_for_select(Spree::Core::MailSettings::SECURE_CONNECTION_TYPES, :to_s, :to_s, Spree::Config[:secure_connection_type]),

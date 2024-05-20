@@ -14,6 +14,8 @@ module Spree
     preference :mail_auth_type, :string, default: Core::MailSettings::MAIL_AUTH[0]
     preference :smtp_username, :string, default: nil
     preference :smtp_password, :string, default: nil
+    preference :smtp_open_timeout, :integer, default: 60
+    preference :smtp_read_timeout, :integer, default: 60
 
     def override_actionmailer_config
       raise 'override_actionmailer_config has been removed. ' \

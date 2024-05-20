@@ -17,3 +17,5 @@ en:
     smtp_send_all_emails_as_from_following_address: Send all mails as from the following address.
     smtp_send_copy_to_this_addresses: Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas.
     smtp_username: SMTP Username
+    smtp_open_timeout: "SMTP Open Timeout"
+    smtp_open_timeout: "SMTP Read Timeout"

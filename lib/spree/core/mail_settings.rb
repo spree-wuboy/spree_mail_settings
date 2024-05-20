@@ -44,7 +44,9 @@ module Spree
           address: Config.mail_host,
           domain: Config.mail_domain,
           port: Config.mail_port,
-          authentication: Config.mail_auth_type
+          authentication: Config.mail_auth_type,
+          open_timeout: Config.smtp_open_timeout,
+          read_timeout: Config.smtp_read_timeout
         }
       end
 

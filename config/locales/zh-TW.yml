@@ -17,3 +17,5 @@ zh-TW:
     smtp_send_all_emails_as_from_following_address: 使用以下的信箱位址來寄送所有郵件.
     smtp_send_copy_to_this_addresses: 對所有寄出的郵件另送一份副本到這個位址. 若有多個位址, 請用逗號分隔.
     smtp_username: SMTP 使用者名稱
+    smtp_open_timeout: "SMTP Open Timeout"
+    smtp_open_timeout: "SMTP Read Timeout"
